@@ -95,6 +95,9 @@ else
   fi
 fi
 
+echo "-----> Removing dev bundle, if exists"
+rm -fr "$APP_SOURCE_DIR/.meteor/dev_bundle"
+
 echo "-----> Bundling bundle"
 cd $APP_SOURCE_DIR
 
