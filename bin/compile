@@ -134,3 +134,5 @@ cat > "$APP_CHECKOUT_DIR"/.profile.d/path.sh <<EOF
   export PATH=\$HOME/$COMPILE_DIR_SUFFIX/bin:\$PATH
   export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:\$HOME/$COMPILE_DIR_SUFFIX/lib
 EOF
+
+exit 0
